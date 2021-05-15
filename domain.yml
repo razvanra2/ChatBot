@@ -1,38 +1,72 @@
 version: "2.0"
 
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - give_time
+slots:
+  cuisine:
+    type: text
+  people:
+    type: text
+  location:
+    type: text
+  price:
+    type: text
+  info:
+    type: text
+  matches:
+    type: text
+    influence_conversation: false
 
-actions:
-  - action_show_time
+entities:
+- location
+- info
+- people
+- price
+- cuisine
+
+intents:
+ - greet
+ - affirm
+ - deny
+ - inform
+ - thankyou
+ - request_info
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
+    - text: "hey there!"
   utter_goodbye:
-  - text: "Bye"
+    - text: "goodbye"
+    - text: "Bye-bye"
+  utter_default:
+    - text: "I didn't quite get that. Can you repeat?"
+  utter_ack_dosearch:
+    - text: "ok let me see what I can find"
+  utter_ack_findalternatives:
+    - text: "ok let me see what else there is"
+  utter_ack_makereservation:
+    - text: "ok making a reservation for restaurant (price={price} cuisine={cuisine}) in location={location} for count={people}? "
+      buttons:
+        - title: "thank you"
+          payload: "thank you"
+  utter_ask_cuisine:
+    - text: "what kind of cuisine would you like?"
+  utter_ask_howcanhelp:
+    - text: "how can I help you?"
+  utter_ask_location:
+    - text: "where?"
+  utter_ask_moreupdates:
+    - text: "if you'd like to modify anything else, please tell me what. This is what I currently have: (location: {location}, price: {price}, cuisine: {cuisine}) for {people} people."
+  utter_ask_numpeople:
+    - text: "for how many people?"
+  utter_ask_price:
+    - text: "in which price range?"
+      buttons:
+      - title: "cheap"
+        payload: "cheap"
+      - title: "expensive"
+        payload: "expensive"
+  utter_on_it:
+    - text: "I'm on it"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+actions:
+- action_search_restaurants
+- action_suggest
