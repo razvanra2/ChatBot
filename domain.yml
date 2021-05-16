@@ -11,9 +11,12 @@ slots:
     type: text
   info:
     type: text
+  name:
+    type: text
+    influence_conversation: False
   matches:
     type: text
-    influence_conversation: false
+    influence_conversation: False
 
 entities:
 - location
@@ -29,6 +32,7 @@ intents:
  - inform
  - thankyou
  - request_info
+ - goodbye
 
 responses:
   utter_greet:
@@ -43,7 +47,7 @@ responses:
   utter_ack_findalternatives:
     - text: "ok let me see what else there is"
   utter_ack_makereservation:
-    - text: "ok making a reservation for restaurant (price={price} cuisine={cuisine}) in location={location} for count={people}? "
+    - text: "ok making a reservation for restaurant {name} ({cuisine}, {price}), in {location} location, for {people} people? "
       buttons:
         - title: "thank you"
           payload: "thank you"
@@ -62,6 +66,8 @@ responses:
       buttons:
       - title: "cheap"
         payload: "cheap"
+      - title: "moderate"
+        payload: "moderate"
       - title: "expensive"
         payload: "expensive"
   utter_on_it:

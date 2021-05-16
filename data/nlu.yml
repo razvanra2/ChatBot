@@ -752,21 +752,36 @@ nlu:
 - synonym: moderate
   examples: |
     - moderately
-- synonym: '4'
+- synonym: '1'
   examples: |
-    - four
+    - one
 - synonym: '2'
   examples: |
     - two
-- synonym: mid
+- synonym: '3'
   examples: |
-    - moderate
-- synonym: '8'
+    - three
+- synonym: '4'
   examples: |
-    - eight
+    - four
+- synonym: '5'
+  examples: |
+    - five
 - synonym: '6'
   examples: |
     - six
+- synonym: '7'
+  examples: |
+    - seven
+- synonym: '8'
+  examples: |
+    - eight
+- synonym: '9'
+  examples: |
+    - nine
+- synonym: mid
+  examples: |
+    - moderate
 - synonym: hi
   examples: |
     - expensive
