@@ -1,0 +1,10 @@
+[
+  {
+    "text": "yea i would like korean food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9905157089233398
+    }
+  }
+]

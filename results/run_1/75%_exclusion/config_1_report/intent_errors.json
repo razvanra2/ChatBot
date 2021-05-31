@@ -1,0 +1,98 @@
+[
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "request_info",
+      "confidence": 0.4362480044364929
+    }
+  },
+  {
+    "text": "oh no and cheap",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.976131796836853
+    }
+  },
+  {
+    "text": "uh yes im looking for malaysian food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "yes south part of town",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.988743782043457
+    }
+  },
+  {
+    "text": "thats correct gastropub food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.915511429309845
+    }
+  },
+  {
+    "text": "uh yes im looking for a cheap restaurant that serves medetanian food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "right",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999765157699585
+    }
+  },
+  {
+    "text": "uh yes a cheap restaurant",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "right on good bye peace",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7076355218887329
+    }
+  },
+  {
+    "text": "okay is there any portuguese food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.6328251361846924
+    }
+  },
+  {
+    "text": "canapes food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9843409657478333
+    }
+  },
+  {
+    "text": "can i have greek food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.791558563709259
+    }
+  }
+]

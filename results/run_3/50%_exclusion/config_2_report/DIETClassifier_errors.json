@@ -1,0 +1,332 @@
+[
+  {
+    "text": "yeah a cheap restaurant serving international food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.5325356721878052,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 32,
+        "end": 45,
+        "confidence_entity": 0.9998502731323242,
+        "value": "international",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yea im looking for a really cheap restaurant in the east part of town",
+    "entities": [
+      {
+        "start": 28,
+        "end": 33,
+        "value": "cheap",
+        "entity": "price"
+      },
+      {
+        "start": 52,
+        "end": 56,
+        "value": "east",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 28,
+        "end": 33,
+        "confidence_entity": 0.9180041551589966,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i would like steakhouse food",
+    "entities": [
+      {
+        "start": 13,
+        "end": 23,
+        "value": "steakhouse",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how about asian oriental type of food",
+    "entities": [
+      {
+        "start": 10,
+        "end": 24,
+        "value": "asian oriental",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.9905450344085693,
+        "value": "oriental",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "is there one that serves indian food",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how about asian oriental",
+    "entities": [
+      {
+        "start": 10,
+        "end": 24,
+        "value": "asian oriental",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.9916887879371643,
+        "value": "oriental",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how bout asian oriental",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "value": "asian oriental",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9916204214096069,
+        "value": "oriental",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you book a table in rome in a moderate price range with british food for four people",
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "value": "rome",
+        "entity": "location"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "value": "mid",
+        "entity": "price"
+      },
+      {
+        "start": 60,
+        "end": 67,
+        "value": "british",
+        "entity": "cuisine"
+      },
+      {
+        "start": 77,
+        "end": 81,
+        "value": "4",
+        "entity": "people"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.8688410520553589,
+        "value": "rome",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "price",
+        "start": 34,
+        "end": 42,
+        "confidence_entity": 0.9974728226661682,
+        "value": "mid",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 60,
+        "end": 67,
+        "confidence_entity": 0.9965987801551819,
+        "value": "british",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want a british restaurant in the east part of town",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "british",
+        "entity": "cuisine"
+      },
+      {
+        "start": 35,
+        "end": 39,
+        "value": "east",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9974147081375122,
+        "value": "british",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "restaurant west part of town danish food",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "west",
+        "entity": "location"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "danish",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.9981125593185425,
+        "value": "west",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "um in the south part of town and its cheap",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "south",
+        "entity": "location"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "value": "cheap",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "may i have a table in a moderate price range with spanish food in bombay for two people",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "mid",
+        "entity": "price"
+      },
+      {
+        "start": 50,
+        "end": 57,
+        "value": "spanish",
+        "entity": "cuisine"
+      },
+      {
+        "start": 66,
+        "end": 72,
+        "value": "bombay",
+        "entity": "location"
+      },
+      {
+        "start": 77,
+        "end": 80,
+        "value": "2",
+        "entity": "people"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9986347556114197,
+        "value": "mid",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 50,
+        "end": 57,
+        "confidence_entity": 0.998634397983551,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 66,
+        "end": 72,
+        "confidence_entity": 0.9957677125930786,
+        "value": "bombay",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

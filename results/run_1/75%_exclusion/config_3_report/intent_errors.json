@@ -1,0 +1,82 @@
+[
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8933634757995605
+    }
+  },
+  {
+    "text": "no the south part",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9985166192054749
+    }
+  },
+  {
+    "text": "oh no and cheap",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9964945912361145
+    }
+  },
+  {
+    "text": "uh yes im looking for malaysian food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999918341636658
+    }
+  },
+  {
+    "text": "yes south part of town",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9991445541381836
+    }
+  },
+  {
+    "text": "thats correct gastropub food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9996172189712524
+    }
+  },
+  {
+    "text": "uh yes im looking for a cheap restaurant that serves medetanian food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "right",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9992780089378357
+    }
+  },
+  {
+    "text": "uh yes a cheap restaurant",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999784231185913
+    }
+  },
+  {
+    "text": "right on good bye peace",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.905564546585083
+    }
+  }
+]

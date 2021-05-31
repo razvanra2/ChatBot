@@ -1,0 +1,106 @@
+[
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5394781231880188
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8090626001358032
+    }
+  },
+  {
+    "text": "no the south part",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9536542892456055
+    }
+  },
+  {
+    "text": "oh no and cheap",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9993155002593994
+    }
+  },
+  {
+    "text": "uh yes im looking for malaysian food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999936819076538
+    }
+  },
+  {
+    "text": "yes south part of town",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9968162178993225
+    }
+  },
+  {
+    "text": "thats correct gastropub food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9966917634010315
+    }
+  },
+  {
+    "text": "uh yes im looking for a cheap restaurant that serves medetanian food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "right",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9571242332458496
+    }
+  },
+  {
+    "text": "uh yes a cheap restaurant",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999982118606567
+    }
+  },
+  {
+    "text": "right on good bye peace",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6159394383430481
+    }
+  },
+  {
+    "text": "moderately",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.945202648639679
+    }
+  },
+  {
+    "text": "can i have greek food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.21911196410655975
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "text": "goodafternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4822356700897217
+    }
+  },
+  {
+    "text": "yeah a cheap restaurant serving international food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "danish food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7466375231742859
+    }
+  },
+  {
+    "text": "i love indian food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9693979620933533
+    }
+  }
+]

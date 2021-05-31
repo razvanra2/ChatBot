@@ -1,0 +1,98 @@
+[
+  {
+    "text": "hi there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9900893568992615
+    }
+  },
+  {
+    "text": "do you have its address",
+    "intent": "request_info",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8122814893722534
+    }
+  },
+  {
+    "text": "no spanish",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8553490042686462
+    }
+  },
+  {
+    "text": "no hungarian food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9836170673370361
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9603317379951477
+    }
+  },
+  {
+    "text": "yes spanish restaurant",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9817215204238892
+    }
+  },
+  {
+    "text": "yea thank you good bye",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.9984359741210938
+    }
+  },
+  {
+    "text": "uh yes im looking for a cheap restaurant in the west part of town",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "yes that sells korean food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9983142614364624
+    }
+  },
+  {
+    "text": "uh yes i need the north part of town",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9712230563163757
+    }
+  },
+  {
+    "text": "uh yes a cheap restaurant",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9995012283325195
+    }
+  },
+  {
+    "text": "hello chinese type of food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5874127149581909
+    }
+  }
+]

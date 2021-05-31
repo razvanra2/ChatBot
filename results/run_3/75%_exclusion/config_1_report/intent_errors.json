@@ -1,0 +1,82 @@
+[
+  {
+    "text": "hello there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "request_info",
+      "confidence": 0.46664321422576904
+    }
+  },
+  {
+    "text": "hi there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7902106046676636
+    }
+  },
+  {
+    "text": "no im looking for one that serves vietnamese food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "no spanish food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9993141293525696
+    }
+  },
+  {
+    "text": "no british food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9720316529273987
+    }
+  },
+  {
+    "text": "no im looking for pan asian",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9996731281280518
+    }
+  },
+  {
+    "text": "yes can i have can i get swedish food in any area",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9699642658233643
+    }
+  },
+  {
+    "text": "uh yes a cheap restaurant",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999277591705322
+    }
+  },
+  {
+    "text": "yeah a cheap restaurant serving international food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "danish food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9985848665237427
+    }
+  }
+]

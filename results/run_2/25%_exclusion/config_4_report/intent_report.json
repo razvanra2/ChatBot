@@ -1,0 +1,61 @@
+{
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "inform": {
+    "precision": 1.0,
+    "recall": 0.992,
+    "f1-score": 0.9959839357429718,
+    "support": 125,
+    "confused_with": {
+      "affirm": 1
+    }
+  },
+  "affirm": {
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1-score": 0.875,
+    "support": 8,
+    "confused_with": {
+      "thankyou": 1
+    }
+  },
+  "request_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "thankyou": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 4,
+    "confused_with": {}
+  },
+  "accuracy": 0.9864864864864865,
+  "macro avg": {
+    "precision": 0.9458333333333333,
+    "recall": 0.9778333333333333,
+    "f1-score": 0.9599788041053102,
+    "support": 148
+  },
+  "weighted avg": {
+    "precision": 0.9878378378378377,
+    "recall": 0.9864864864864865,
+    "f1-score": 0.9868482940772096,
+    "support": 148
+  }
+}

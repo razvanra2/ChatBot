@@ -1,0 +1,82 @@
+[
+  {
+    "text": "hi there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9998446702957153
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5056173205375671
+    }
+  },
+  {
+    "text": "no hungarian food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8834500312805176
+    }
+  },
+  {
+    "text": "no north",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7033858895301819
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9494857788085938
+    }
+  },
+  {
+    "text": "yea thank you good bye",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.999976634979248
+    }
+  },
+  {
+    "text": "uh yes im looking for a cheap restaurant in the west part of town",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999994039535522
+    }
+  },
+  {
+    "text": "international",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8182583451271057
+    }
+  },
+  {
+    "text": "id like an expensive thai restaurant",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5190081000328064
+    }
+  },
+  {
+    "text": "vietnamese food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9999541640281677
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7660849094390869
+    }
+  },
+  {
+    "text": "yea thank you good bye",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.9984726905822754
+    }
+  },
+  {
+    "text": "uh yes im looking for a cheap restaurant in the west part of town",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9975876808166504
+    }
+  }
+]

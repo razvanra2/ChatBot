@@ -1,0 +1,10 @@
+[
+  {
+    "text": "brazilian food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9713785648345947
+    }
+  }
+]

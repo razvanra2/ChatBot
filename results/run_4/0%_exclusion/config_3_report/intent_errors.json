@@ -1,0 +1,42 @@
+[
+  {
+    "text": "hi there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999974370002747
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9975214600563049
+    }
+  },
+  {
+    "text": "yea thank you good bye",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.9217920899391174
+    }
+  },
+  {
+    "text": "yea i would like korean food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6202278733253479
+    }
+  },
+  {
+    "text": "dont care expensive",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9976720213890076
+    }
+  }
+]

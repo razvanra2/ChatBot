@@ -1,0 +1,42 @@
+[
+  {
+    "text": "no i want halal food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.999862790107727
+    }
+  },
+  {
+    "text": "correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999998211860657
+    }
+  },
+  {
+    "text": "id like a restaurant in any area that it serves canapes",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9525886178016663
+    }
+  },
+  {
+    "text": "serves british food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.62252277135849
+    }
+  },
+  {
+    "text": "brazilian food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.90537029504776
+    }
+  }
+]

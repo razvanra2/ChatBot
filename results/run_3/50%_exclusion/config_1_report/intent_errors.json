@@ -1,0 +1,26 @@
+[
+  {
+    "text": "goodafternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6179211139678955
+    }
+  },
+  {
+    "text": "yeah a cheap restaurant serving international food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "danish food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.936754584312439
+    }
+  }
+]

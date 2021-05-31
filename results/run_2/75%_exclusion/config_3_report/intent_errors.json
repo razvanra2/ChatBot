@@ -1,0 +1,106 @@
+[
+  {
+    "text": "hey bot",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999737739562988
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999905824661255
+    }
+  },
+  {
+    "text": "give me their phone number",
+    "intent": "request_info",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999912977218628
+    }
+  },
+  {
+    "text": "what is the phone number of the restaurant",
+    "intent": "request_info",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9942705631256104
+    }
+  },
+  {
+    "text": "may i have the phone number of the restaurant",
+    "intent": "request_info",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8138987421989441
+    }
+  },
+  {
+    "text": "no i want halal food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9973946213722229
+    }
+  },
+  {
+    "text": "oh no and cheap",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.841623067855835
+    }
+  },
+  {
+    "text": "no im looking for pan asian",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999895095825195
+    }
+  },
+  {
+    "text": "uh yes i need the north part of town",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9379782676696777
+    }
+  },
+  {
+    "text": "right on good bye peace",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9636942744255066
+    }
+  },
+  {
+    "text": "yes italian food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9676477313041687
+    }
+  },
+  {
+    "text": "yes in the west part of town",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6524584889411926
+    }
+  },
+  {
+    "text": "danish food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.997018575668335
+    }
+  }
+]

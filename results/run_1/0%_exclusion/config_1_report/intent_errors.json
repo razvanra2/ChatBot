@@ -1,0 +1,34 @@
+[
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "request_info",
+      "confidence": 0.80985027551651
+    }
+  },
+  {
+    "text": "thats correct gastropub food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.999999463558197
+    }
+  },
+  {
+    "text": "right",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "can i get a restaurant serving chinese food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9886474013328552
+    }
+  }
+]

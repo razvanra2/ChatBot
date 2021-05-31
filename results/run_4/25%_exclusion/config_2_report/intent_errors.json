@@ -1,0 +1,26 @@
+[
+  {
+    "text": "yea thank you good bye",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.882766604423523
+    }
+  },
+  {
+    "text": "can i find a restaurant that serves international food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7744941115379333
+    }
+  },
+  {
+    "text": "venetian",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7750771045684814
+    }
+  }
+]

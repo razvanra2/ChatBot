@@ -1,0 +1,42 @@
+[
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8362244963645935
+    }
+  },
+  {
+    "text": "thats correct gastropub food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.999996542930603
+    }
+  },
+  {
+    "text": "right",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999997019767761
+    }
+  },
+  {
+    "text": "right on good bye peace",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9941027760505676
+    }
+  },
+  {
+    "text": "yea i would like korean food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9715753197669983
+    }
+  }
+]

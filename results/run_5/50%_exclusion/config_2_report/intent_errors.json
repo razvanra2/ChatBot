@@ -1,0 +1,34 @@
+[
+  {
+    "text": "and thats all thank you and good bye",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9822129011154175
+    }
+  },
+  {
+    "text": "no i want halal food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8535751700401306
+    }
+  },
+  {
+    "text": "correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.38651663064956665
+    }
+  },
+  {
+    "text": "brazilian food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9343667030334473
+    }
+  }
+]

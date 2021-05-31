@@ -1,0 +1,98 @@
+[
+  {
+    "text": "hey bot",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9165301322937012
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.783775806427002
+    }
+  },
+  {
+    "text": "give me their phone number",
+    "intent": "request_info",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9655941724777222
+    }
+  },
+  {
+    "text": "what is the phone number of the restaurant",
+    "intent": "request_info",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7355232238769531
+    }
+  },
+  {
+    "text": "no i want halal food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9986569881439209
+    }
+  },
+  {
+    "text": "oh no and cheap",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9204570055007935
+    }
+  },
+  {
+    "text": "no im looking for pan asian",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999955892562866
+    }
+  },
+  {
+    "text": "no hungarian food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9879669547080994
+    }
+  },
+  {
+    "text": "ye",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.2528488039970398
+    }
+  },
+  {
+    "text": "right on good bye peace",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9315956234931946
+    }
+  },
+  {
+    "text": "yes italian food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9119377732276917
+    }
+  },
+  {
+    "text": "danish food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.579252302646637
+    }
+  }
+]

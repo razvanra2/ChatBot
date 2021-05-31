@@ -1,0 +1,633 @@
+## intent:greet
+- goodafternoon
+- hi
+- goodmorning
+- goodevening
+- hey bot
+- hello there
+- hi there
+- morning
+- hey
+
+## intent:request_info
+- can i have their [address](info)
+- do you have its [phone number](info)
+- what is their [address](info)
+- give me their [address](info)
+- what is their [phone number](info)
+- may i have the [phone number](info) of the restaurant
+- may i have the [address](info) of the restaurant
+- can i have their [phone number](info)
+- whats their [phone number](info)
+- give me their [phone number](info)
+- what is the [phone number](info) of the restaurant
+- what is the [address](info) of the restaurant
+
+## intent:thankyou
+- uh thank you good bye
+- uh okay thank you good bye
+- okay thank you
+- thank you good bye
+- thanks
+- thank you bye
+- um thank you good bye
+- okay cool uh good bye thank you
+- okay thank you goodbye
+- okay thank you good bye
+- you rock
+- sorry about my mistakes thank you good bye
+- and thats all thank you and good bye
+- thank you goodbye
+
+## intent:deny
+- no thai
+- no hungarian food
+- no i want american food
+- no danish food
+- no indian food
+- no south part of town
+- no new selection
+- no british food
+- no american food
+- no im looking for one that serves vietnamese food
+- no thanks
+- no chinese
+- no i want halal food
+- no im looking for pan asian
+- no thank you good bye
+- no thank you
+- no north
+- no spanish
+- no spanish food
+- no center
+- uh no
+
+## intent:affirm
+- yes id like an expensive restaurant in the east part of town
+- yes barbecue food
+- correct
+- yes can i have
+- i love that
+- yes italian food
+- yes and i dont care about the price range
+- yes can i have can i get swedish food in any area
+- uh yes restaurant that serves danish food
+- ye
+- yes in the moderately priced
+- yeah a cheap restaurant serving international food
+- uh yes im looking for a cheap restaurant in the west part of town
+- yes yes
+- yes and in french please
+- uh yes can i find a moderately priced restaurant and it serve it should serve brazilian food
+- yes in the west part of town
+- uh yes can i find a restaurant in the east part of town that serves chinese
+- uh yes i need the north part of town
+- yes knocking
+- yes spanish restaurant
+- yeah i need to find
+- yes that serves korean food
+- yes that sells korean food
+- yeah
+- let's do it
+- yea
+- yea thank you good bye
+- yes right
+- uh yeah im looking for a restaurant in the south part of town and that serves kosher food
+- um yes
+
+## intent:inform
+- i am looking for a restaurant in the [south](location) part of town and it should serve [cantonese](cuisine) food
+- how about [korean](cuisine) type food
+- instead could it be for [four]{"entity": "people", "value": "4"} people
+- how about [indian](cuisine) type of food
+- system [european](cuisine) food
+- the [south](location) part of town
+- [italian](cuisine)
+- uh are there any that serves [mediterranean](cuisine)
+- [expensive](price) restaurants
+- how about [indian](cuisine) type food
+- [mediterranean](cuisine) food
+- [north](location) part of town serving [gastropub](cuisine) food
+- [thai](cuisine) food
+- im looking for an [expensive](price) restaurant and it should be [east](location) part of town
+- i'd like to book a table for [two]{"entity": "people", "value": "2"} in [madrid](location) with [spanish](cuisine) cuisine in a [moderate]{"entity": "price", "value": "mid"} price range
+- iam looking for an [expensive](price) restaurant and it should be in the [south](location) part of town
+- i would like a [cheap](price) restaurant
+- [brazilian](cuisine) food
+- [world](cuisine) food
+- [mexican](cuisine)
+- im looking for a restaurant on the [east](location) part of town that serves scandinavia food
+- i need a restaurant serving [corsica](cuisine) food
+- i need a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [west](location) part of town
+- [moderately]{"entity": "price", "value": "moderate"} pri
+- im looking for a [cheap](price) restaurant that serves [german](cuisine) food
+- i would like to find an [expensive](price) restaurant that serves [corsica](cuisine) food
+- the [north](location)
+- [cheap](price) restaurant in the [south](location) part of town
+- i need [cheap](price) [hungarian](cuisine) restaurant
+- what about a [chinese](cuisine) restaurant in the north of town
+- may i have a table in a [moderate]{"entity": "price", "value": "mid"} price range with [spanish](cuisine) food in [bombay](location) for [two]{"entity": "people", "value": "2"} people
+- i would like [steakhouse](cuisine) food
+- with [french](cuisine) cuisine
+- restaurant [east](location)
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant uh serving [halal](cuisine) food
+- im looking for a [cheap](price) restaurant in the [north](location) part of town
+- id like a [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves [cuban](cuisine) food please
+- is there one that serves [indian](cuisine) food
+- uh how about [north american](cuisine)
+- i want a [british](cuisine) restaurant in the [east](location) part of town
+- [hungarian](cuisine)
+- [greek](cuisine)
+- [korean](cuisine)
+- how about [cheap](price)
+- [jamaican](cuisine)
+- im looking for [portuguese](cuisine) food
+- [british](cuisine)
+- can i have a [seafood](cuisine) restaurant please
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [east](location) part of town
+- [moderate](price) price
+- its a restaurant in the south of town that serves [italian](cuisine) food
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant and it should be in the [north](location) of town
+- [moderately]{"entity": "price", "value": "moderate"} priced restaurant serving [moroccan](cuisine) food
+- im looking for a [cheap](price) restaurant in the [east](location) part of town
+- i would like a [cheap](price) restaurant in the [north](location) part of town
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [west](location) part of town
+- for [six]{"entity": "people", "value": "6"} please
+- a restaurant [south](location) part of town
+- anything [expensive](price)
+- the [east](location) part
+- im looking for an [expensive](price) restaurant and it should be the [east](location) part of town
+- [cheap](price) restaurant
+- id like a [greek](cuisine) restaurant in the [east](location) part of town
+- ok how about [chinese](cuisine) food
+- actually i would prefer for [eight]{"entity": "people", "value": "8"} people
+- im looking for [moroccan](cuisine) food
+- [polish](cuisine)
+- what about [expensive](price)
+- in the [west](location) part
+- [cheap](price) [italian](cuisine) food
+- i want a [cheap](price) restaurant that serves [unusual](cuisine) food
+- i love [indian](cuisine) food
+- [french](cuisine) food
+- im looking for [thai](cuisine)
+- id like an [expensive](price) [thai](cuisine) restaurant
+- um im looking for a restaurant in the center part of town that serves [lebanese](cuisine) food
+- what about [chinese](cuisine) food
+- [afghan](cuisine) food
+- what about [vietnamese](cuisine) type of food
+- actually i would prefer in [bombay](location)
+- [scandinavian](cuisine) food
+- [korean](cuisine) food
+- im looking for [moderately]{"entity": "price", "value": "moderate"} priced restaurant and it should serve [halal](cuisine) food
+- id like a restaurant in the [north](location) part of town that serves cross over food
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [south](location) part of town
+- id like a [cheap](price) restaurant in the [north](location) part of town
+- i need a [cheap](price) restaurant that serves [indonesian](cuisine) food
+- how about [mediterranean](cuisine) food
+- [expensive](price) restaurant serving [portuguese](cuisine) food
+- the [indian](cuisine) food
+- [south](location) part of town please
+- how about [persian](cuisine) food
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant serving [fusion](cuisine) food
+- [south](location) part
+- im looking for [moderately]{"entity": "price", "value": "moderate"} priced restaurant serving [austrian](cuisine) food
+- restaurant any area [japanese](cuisine) food
+- [moderately]{"entity": "price", "value": "moderate"} priced food
+- im looking for [corsica](cuisine) food
+- in the [east](location) part
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves [traditional](cuisine) food
+- [west](location) part of town
+- [unusual](cuisine) food
+- what about in the [west](location) area
+- how about [international](cuisine) food
+- looking for a [cheap](price) restaurant that serves steak house food
+- im looking for a restaurant in the [north](location) part of town that serves [african](cuisine) food
+- how about an [indian](cuisine) restaurant in the north part of town
+- im looking for a restaurant in the [east](location) part of the town with [indian](cuisine) asian food
+- ah [gastropub](cuisine) food
+- im looking for a restaurant in the [east](location) part of town thats [expensive](price)
+- im looking for a [cheap](price) pan asian food
+- im looking for a restaurant in any area that serves [bistro](cuisine) food
+- [north](location)
+- looking for a [cheap](price) restaurant in the [south](location) part of town
+- im looking for a restaurant in the [south](location) part of town serving [jamaican](cuisine) food
+- can i find an [expensive](price) restaurant that serves [traditional](cuisine) food
+- how about [gastropub](cuisine) type of food
+- [cheap](price) restaurant [south](location) part of town
+- [catalan](cuisine)
+- [moderate](price) price range please
+- id like [moderately]{"entity": "price", "value": "moderate"} priced [moroccan](cuisine) food
+- [expensive](price)
+- looking for [cheap](price) barbecue food
+- what about [european](cuisine) food
+- im looking for a [cheap](price) restaurant serving [modern european](cuisine) type of food
+- restaurant in the [north](location) part of town that serves [hungarian](cuisine) food
+- im looking for a restaurant that serves [swiss](cuisine) food
+- how about [indian](cuisine) food
+- how about [asian oriental](cuisine) type of food
+- im looking for [romanian](cuisine) food in the [expensive](price) price range
+- i want a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [west](location) part of town
+- im looking for an [expensive](price) restaurant and it should be served [international](cuisine) food
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves [vietnamese](cuisine) food
+- [moderately]{"entity": "price", "value": "moderate"} priced
+- lets see im looking for a restaurant in the [north](location) part of town that serves [vietnamese](cuisine) food
+- i want to find a [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves [canapes](cuisine) food
+- i want to find a restaurant that serves [world](cuisine) food
+- [christmas](cuisine) food
+- for a restaurant in any area with [international](cuisine) food
+- restaurant [north](location) part of town [seafood](cuisine)
+- [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [west](location) part of town
+- [turkish](cuisine) type of food
+- [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves [thai](cuisine) food
+- i need to find a restaurant in the [north](location) part of town that serves [jamaican](cuisine) food
+- i need a [cheap](price) restaurant in the [south](location) part of town
+- a restaurant with [afghan](cuisine) food
+- [international](cuisine)
+- i need a [moderately]{"entity": "price", "value": "moderate"} priced restaurant serving [fusion](cuisine) food
+- in the [west](location)
+- how about [asian oriental](cuisine)
+- want something in the [south](location) side of town thats [moderately]{"entity": "price", "value": "moderate"} priced
+- actually i would prefer for [six]{"entity": "people", "value": "6"} people
+- how about [gastropub](cuisine) food
+- [expensive](price) restaurant [scottish](cuisine) food
+- i would like to find a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [north](location) part of town
+- yea im looking for a really [cheap](price) restaurant in the [east](location) part of town
+- im looking for a restaurant in the [south](location) part of town that serves pan asian food
+- im looking for a [korean](cuisine) restaurant in the [expensive](price) price range
+- how about [italian](cuisine) type of food
+- im looking for a restaurant that serves [gastropub](cuisine) food any price range
+- can you make a restaurant reservation with [italian](cuisine) food for [eight]{"entity": "people", "value": "8"} in [bombay](location) in a [expensive](price) price range
+- how about [asian oriental](cuisine) food
+- im looking for a restaurant in any area that serves [welsh](cuisine) food
+- how about uh [gastropub](cuisine)
+- id like to find a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [east](location) part of town
+- um an [expensive](price)
+- [cuban](cuisine) food
+- i need a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [north](location) part of town
+- how about [spanish](cuisine) types of food
+- [italian](cuisine) food
+- [swiss](cuisine)
+- fancy restaurant [moroccan](cuisine) food
+- [moderately]{"entity": "price", "value": "moderate"} priced restaurant
+- im looking for a restaurant that serves [french](cuisine) food
+- i want to find a [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves [cuban](cuisine) food
+- what about [indian](cuisine)
+- how about [korean](cuisine) food
+- how about [portuguese](cuisine) food
+- in the [east](location) part of town
+- looking for a restaurant that serves [lebanese](cuisine) food
+- serves [british](cuisine) food
+- i want to find a [cheap](price) restaurant
+- im looking for a restaurant in any area that serves [russian](cuisine) food
+- [expensive](price) restaurant [south](location) part of town
+- [thai](cuisine) type food
+- looking for [lebanese](cuisine) food in the city center
+- im looking for [world](cuisine) food
+- [expensive](price) restaurant [welsh](cuisine) food
+- looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves [unusual](cuisine) food
+- uh [world](cuisine) food
+- id like to find a [cheap](price) restaurant in the [west](location) part of town
+- [swedish](cuisine) food
+- what about [italian](cuisine)
+- [international](cuisine) food in the [east](location) part of town
+- i want to find an [expensive](price) restaurant that serves [swedish](cuisine) food
+- the [west](location) part of town
+- id like to find an [expensive](price) restaurant
+- uh [italian](cuisine)
+- [creative](cuisine) food
+- restaurant [moderate](price) price
+- [expensive](price) restaurant in the [east](location) part of town
+- how about [british](cuisine) type food
+- [moderately]{"entity": "price", "value": "moderate"} restaurant
+- im looking for an [expensive](price) restaurant in the [east](location) of town
+- i want to find a [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves [moroccan](cuisine) food
+- like to find a restaurant in the [east](location) part of town and it should serve [indian](cuisine) food
+- looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant and it needs to be in the [south](location) part of town
+- ah im looking for a [cheap](price) restaurant
+- im looking for a [cheap](price) restaurant
+- a restaurant [cheap](price) [north](location) part of town
+- a [cheap](price) restaurant in the [west](location) part of town
+- how about [turkish](cuisine) food
+- i need a [cheap](price) restaurant in the [west](location) part of town
+- i want a restaurant in the [west](location) part of town that serves [australian](cuisine) food
+- i want a [cheap](price) restaurant in the [south](location) part of town
+- restaurant in the [east](location) part of town serving [basque](cuisine) food
+- i want a restaurant in the center that serves [seafood](cuisine)
+- [gastropub](cuisine) food
+- [greek](cuisine) food
+- how [european](cuisine)
+- find me a cheap [vietnamese](cuisine) restaurant
+- i need a restaurant in the [east](location) part of town
+- im looking for an [expensive](price) restaurant that serves [greek](cuisine) food
+- um in the [east](location) part of town
+- can i get a restaurant with [vegetarian](cuisine) food
+- uh what about [portuguese](cuisine) food
+- i want to find a [moderately]{"entity": "price", "value": "moderate"} priced restaurant
+- id like an [expensive](price) restaurant
+- i want a restaurant in the [moderate](price) price range
+- uh a restaurant in the [south](location) part of town
+- i want to find a restaurant in the center and it should serve [lebanese](cuisine) food
+- im looking for [japanese](cuisine) food
+- uh [cheap](price) restaurant
+- restaurant in any area [international](cuisine) food
+- [welsh](cuisine) food
+- im looking for an [italian](cuisine) restaurant in the [east](location) part of town
+- id like a restaurant in any area that it serves [canapes](cuisine)
+- how about [modern european](cuisine)
+- [corsica](cuisine) food
+- im looking for a restaurant that serves [polynesian](cuisine) food
+- [south](location)
+- how about a restaurant in the east part of town that serves [indian](cuisine) food
+- i am looking for a restaurant serving [afghan](cuisine) food
+- uh a [cheap](price) restaurant in the [east](location) part of town
+- restaurant in the [west](location) part of town that serves [cuban](cuisine) food
+- [polynesian](cuisine) food
+- [cheap](price) restaurant that serves [german](cuisine) food
+- im looking for an [expensive](price) restaurant in the [east](location) part of town
+- [indian](cuisine) food
+- im looking for a restaurant in the [west](location) part of town that serves [moroccan](cuisine) food
+- [spanish](cuisine)
+- [moderately]{"entity": "price", "value": "moderate"} priced in the [north](location) part of town
+- [malaysian](cuisine) food
+- [moderate](price) priced
+- i want to find a restaurant in the center that serves [lebanese](cuisine) food
+- [expensive](price) european
+- i want to find a restaurant in the [north](location) part of town
+- i want a [moderate](price) priced restaurant in the [south](location) of town
+- [moderate](price)
+- i need a [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves [world](cuisine) food
+- [cheap](price) restaurant serving unintelligible food
+- [crossover](cuisine) food
+- id like a restaurant in the [south](location) part of town
+- i would like a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [west](location) part of town
+- [west](location) of town
+- im looking for something serves [japanese](cuisine) food
+- i would like a restaurant that serves [korean](cuisine) food
+- what about [vietnamese](cuisine) food
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [south](location) of town
+- [expensive](price) food in the [south](location) of town
+- i want [expensive](price) food in the [east](location) part of town
+- im looking for an [expensive](price) restaurant that serves sea food
+- what about a restaurant that serves [chinese](cuisine) food
+- what about [korean](cuisine) food
+- im looking for a restaurant in the [east](location) part of town that serves [traditional](cuisine) food
+- [danish](cuisine) food
+- i need a [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves bask food
+- [chinese](cuisine)
+- what about [international](cuisine) food
+- i want to find a [cheap](price) restaurant and it should be in the [east](location) part of town
+- im looking for a [expensive](price) restaurant in the [east](location) part of town
+- uh [cheap](price) restaurant in [north](location) part of town
+- [corsica](cuisine)
+- [asian oriental](cuisine) type of food
+- im looking for a restaurant in the [west](location) part of town that serves [jamaican](cuisine) food
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves [european](cuisine) food
+- i need a restaurant in the center of town that serves [spanish](cuisine) food
+- in [cheap](price) restaurant
+- how about [korean](cuisine) foo
+- what is a good [cheap](price) restaurant that serves [portuguese](cuisine) food
+- im looking for a restaurant in any area that serves [polynesian](cuisine) food
+- um [english](cuisine)
+- how about [modern european](cuisine) type of food
+- hi im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant
+- any kind of food id like a [cheap](price) restaurant
+- im looking for a restaurant in the [south](location) part of town and [danish](cuisine) food
+- what about [thai](cuisine) food
+- [moderate](price) restaurant [kosher](cuisine) food
+- im looking for a restaurant in the [south](location) part of town that serves [malaysian](cuisine) food
+- oh i need to be in the [north](location)
+- [bistro](cuisine)
+- i need a restaurant in the [west](location) part of town
+- hi im looking for an restaurant in the center that serves [korean](cuisine) food
+- what about [french](cuisine) food
+- the [east](location) part of town
+- [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [east](location) part of town
+- restaurant [north](location) part of town fast food
+- id like a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [west](location) part of town
+- im looking for a restaurant in the center that serves [turkish](cuisine) food
+- uh i want [cantonese](cuisine) food
+- looking for a [japanese](cuisine) restaurant in the center
+- what about [british](cuisine) food
+- im looking for a restaurant in the [north](location) part of town
+- what about [asian oriental](cuisine)
+- im looking for a restaurant in the center that serves [caribbean](cuisine) food
+- instead could it be with [french](cuisine) food
+- im looking for an [expensive](price) restaurant serving [malaysian](cuisine) food
+- [caribbean](cuisine) food
+- im looking for a [cheap](price) restaurant in the [west](location) part of town
+- how about [french](cuisine)
+- im looking for a restaurant in the [south](location) part of town serving [korean](cuisine) food
+- [portuguese](cuisine) food
+- i want a [moderately]{"entity": "price", "value": "moderate"} priced
+- i want to find a [moderately]{"entity": "price", "value": "moderate"} priced restaurant and it should serve asian food
+- [north](location) part of town
+- could i have a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [south](location) part of town
+- im looking for a restaurant in the [north](location) part of town serving [malaysian](cuisine) food
+- im looking for a restaurant in the [west](location) park of town that serves [australian](cuisine) food
+- um i dont care i just want [traditional](cuisine) food
+- i am looking for an [expensive](price) restaurant that serves
+- looking for a [cheap](price) restaurant that serves [creative](cuisine) food
+- how bout [chinese](cuisine) food
+- [west](location) side
+- [venetian](cuisine)
+- uh okay how about [french](cuisine) food
+- how about [italian](cuisine)
+- i want to find a [cheap](price) re
+- hi im looking for a [cheap](price) restaurant in the [south](location) part of town
+- [spanish](cuisine) food
+- im looking for a restaurant in the [east](location) part that serves [creative](cuisine) food
+- id like to find a restaurant in the [north](location) part of town that serves [german](cuisine) food
+- i want a restaurant that serves [french](cuisine) food
+- ah [centre](location)
+- im looking for a restaurant that serves [turkish](cuisine) food
+- i want to find a restaurant serving [world](cuisine) food
+- un [unusual](cuisine) food
+- [world](cuisine)
+- serves [halal](cuisine) food
+- how about [thai](cuisine) food
+- [asian oriental](cuisine) food
+- how about [chinese](cuisine) food
+- im looking for a [cheap](price) restaurant in the [south](location) part of town
+- i need a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [south](location) part of town
+- i need [indian](cuisine) food
+- i would like [australian](cuisine) foo
+- [cheap](price) restaurant in the [east](location) of town
+- [cantonese](cuisine) food
+- im looking for a [moroccan](cuisine) restaurant in the center of town
+- im looking for a restaurant in the center of town that serves [african](cuisine) food
+- [cheap](price) restaurant [north](location) part of town
+- i want an [expensive](price) restaurant that serves sea food
+- looking for [afghan](cuisine) good
+- im looking for a restaurant in the [north](location) part of town serving [jamaican](cuisine) food
+- im looking for [tuscan](cuisine) food
+- i need a restaurant in the center of town that includes [international](cuisine) food
+- [polynesian](cuisine)
+- i would like to find a restaurant in the center and it should serve [korean](cuisine) food
+- im looking for an [expensive](price) restaurant in the [east](location) town
+- i want [christmas](cuisine) food
+- im looking for a restaurant in central it should serve [japanese](cuisine) food
+- [moderately]{"entity": "price", "value": "moderate"} priced in the [west](location)
+- [hungarian](cuisine) food
+- is there a restaurant that has [british](cuisine) food
+- uh how about [turkish](cuisine) type of food
+- [north american](cuisine)
+- [belgian](cuisine) food
+- im looking for a restaurant that serves [african](cuisine) food
+- [south](location) of town
+- [modern european](cuisine)
+- [north](location) part
+- im looking for a restaurant serving [international](cuisine) food
+- [british](cuisine) food
+- how about [korean](cuisine)
+- im looking for a restaurant that serves [danish](cuisine) food
+- [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves [creative](cuisine) food
+- [singaporean](cuisine)
+- [expensive](price) restaurant [east](location) part of town
+- we will be [eight]{"entity": "people", "value": "8"}
+- [portuguese](cuisine)
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [north](location) part of town
+- [vietnamese](cuisine)
+- in the [north](location) part of town
+- im looking for a [cheap](price) restaurant and it should be in the [south](location) part of town
+- [indian](cuisine) type of food
+- looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant that serves [brazilian](cuisine)
+- [international](cuisine) food
+- can i have a [moderately]{"entity": "price", "value": "moderate"} priced restaurant
+- [scandinavian](cuisine)
+- im looking for something [cheap](price)
+- im looking for a restaurant in the [east](location) part of town that serves [afghan](cuisine) food
+- looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant
+- [cheap](price) restaurant that serves [vegetarian](cuisine) food
+- how about [european](cuisine) food
+- [expensive](price) european food
+- hello im looking for an [expensive](price) restaurant
+- [british](cuisine) expensive
+- [thai](cuisine)
+- [french](cuisine)
+- [gastropub](cuisine)
+- [moderately]{"entity": "price", "value": "moderate"} priced restaurant serving [indian](cuisine) food
+- [afghan](cuisine)
+- [south](location) [expensive](price)
+- hi im looking for [mexican](cuisine) food
+- how about an expensive restaurant that serves [european](cuisine) food
+- id like to find a restaurant that serves [afghan](cuisine) food
+- im looking for an [expensive](price) restaurant that serves [irish](cuisine) food
+- im looking for a restaurant in any area it should serve [gastropub](cuisine) food
+- hi im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [west](location) part of town
+- hi im looking for an [expensive](price) restaurant in the [south](location) part of town
+- the [south](location) part of town id like a restaurant that serves [traditional](cuisine) food
+- i want a restaurant serving [greek](cuisine) food
+- [south](location) part of town
+- im looking for [greek](cuisine) food
+- what about [modern european](cuisine) type food
+- [expensive](price) restaurant in the [south](location) part of town
+- looking for an [expensive](price) restaurant that serves [indonesian](cuisine) food
+- [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [south](location) part of town
+- im looking for an [expensive](price) restaurant in the [south](location) part of town
+- [chinese](cuisine) food
+- how about [french](cuisine) food
+- um what about [european](cuisine)
+- how about [italian](cuisine) food
+- im looking for a restaurant in the [west](location) part of town serving [italian](cuisine) food
+- [moderate](price) priced restaurant in the [north](location) part of town
+- a restaurant in the [east](location) part of town that serves [caribbean](cuisine) food
+- im looking for a restaurant that serves [japanese](cuisine) food
+- an [expensive](price) restaurant
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced restaurant and it should serve [polynesian](cuisine) food
+- restaurant [south](location) part of town [english](cuisine) food
+- what about [north american](cuisine) type of food
+- [african](cuisine) food
+- i am looking for a [cheap](price) restaurant and it should be in the [west](location) part of town
+- the [south](location)
+- how about [chinese](cuisine)
+- im looking for [lebanese](cuisine) food
+- im looking for something [moderately]{"entity": "price", "value": "moderate"} priced
+- im looking for a [moderately]{"entity": "price", "value": "moderate"} priced labonese restaruant
+- [irish](cuisine) food
+- that serves [corsica](cuisine)
+- i want [malaysian](cuisine) food in any area
+- i need a [moderate](price) priced restaurant in the [north](location) part of town
+- looking for an [expensive](price) restaurant in the [south](location) part of town
+- uh how about [italian](cuisine)
+- [asian oriental](cuisine)
+- i need a [cheap](price) restaurant in the [east](location) part of town
+- looking for an [expensive](price) restaurant that serves [afghan](cuisine) food
+- [cheap](price) [jamaican](cuisine)
+- um what about [italian](cuisine) food
+- [moderately]{"entity": "price", "value": "moderate"} priced serving gastro pub
+- restaurant in the [south](location) part of town
+- okay how about a [gastropub](cuisine)
+- im looking for [traditional](cuisine) food
+- find a [cheap](price) restaurant
+- how about [english](cuisine) food in the north part of town
+- how bout [asian oriental](cuisine)
+- [moderately]{"entity": "price", "value": "moderate"} priced in [south](location) part
+- [english](cuisine) food
+- um how about [chinese](cuisine) food
+- could i have a [cheap](price) restaurant in the [east](location) part of town
+- [east](location)
+- im looking for an [expensive](price) restaurant
+- i want to find a [cheap](price) restaurant and it should serve [scandinavian](cuisine) food
+- i want a restaurant in the [east](location) part of town that serves [singaporean](cuisine) food
+- i need a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [north](location) of town
+- im looking for a restaurant in the [west](location) part of town that serves canape food
+- [west](location)
+- [european](cuisine) food any price
+- im looking for a restaurant that serves [russian](cuisine) food
+- how about [turkish](cuisine)
+- [german](cuisine)
+- [venetian](cuisine) food
+- a [moderate](price) restaurant in the [west](location) part of town
+- price over food [west](location) part of town
+- what about [indian](cuisine) food
+- im looking for [swedish](cuisine) food
+- im looking a restaurant in the [east](location) part of town
+- can you make a restaurant reservation in a [cheap]{"entity": "price", "value": "lo"} price range in [london](location) with [spanish](cuisine) food for [eight]{"entity": "people", "value": "8"} people
+- im looking for an [expensive](price) restaurant serving [french](cuisine) food
+- [tuscan](cuisine) food
+- im looking for a [cheap](price) restaurant with [spanish](cuisine) food
+- dont care [expensive](price)
+- what about [portuguese](cuisine) food
+- im looking for [belgian](cuisine) food
+- i want an [expensive](price) restaurant that serves [polish](cuisine) food
+- i need a [cheap](price) restaurant
+- i want a [moderately]{"entity": "price", "value": "moderate"} priced restaurant in the [north](location) part of town
+
+## synonym:1
+- one
+
+## synonym:2
+- two
+
+## synonym:3
+- three
+
+## synonym:4
+- four
+
+## synonym:5
+- five
+
+## synonym:6
+- six
+
+## synonym:7
+- seven
+
+## synonym:8
+- eight
+
+## synonym:9
+- nine
+
+## synonym:hi
+- expensive
+
+## synonym:lo
+- cheap
+
+## synonym:mid
+- moderate
+
+## synonym:moderate
+- moderately

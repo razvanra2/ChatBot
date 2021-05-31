@@ -1,0 +1,473 @@
+[
+  {
+    "text": "no the south part",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9306985139846802,
+        "value": "south",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no im looking for one that serves vietnamese food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 34,
+        "end": 44,
+        "confidence_entity": 0.9996522665023804,
+        "value": "vietnamese",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no spanish food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.9995586276054382,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no british food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.9994869232177734,
+        "value": "british",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no im looking for pan asian",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.8722202777862549,
+        "value": "asian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes spanish restaurant",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9995854496955872,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes in the west part of town",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.9979389309883118,
+        "value": "west",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes can i have can i get swedish food in any area",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.9791111350059509,
+        "value": "swedish",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes that sells korean food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9996267557144165,
+        "value": "korean",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "uh yes a cheap restaurant",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9995999932289124,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "yeah a cheap restaurant serving international food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9996417760848999,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 32,
+        "end": 45,
+        "confidence_entity": 0.999622106552124,
+        "value": "international",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want a restaurant in the east part of town that serves singaporean food",
+    "entities": [
+      {
+        "start": 27,
+        "end": 31,
+        "value": "east",
+        "entity": "location"
+      },
+      {
+        "start": 57,
+        "end": 68,
+        "value": "singaporean",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.9882277846336365,
+        "value": "east",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i would like steakhouse food",
+    "entities": [
+      {
+        "start": 13,
+        "end": 23,
+        "value": "steakhouse",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "expensive restaurant welsh food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "expensive",
+        "entity": "price"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "value": "welsh",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.990085244178772,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.6952298283576965,
+        "value": "welsh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "welsh food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "welsh",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.6026949882507324,
+        "value": "welsh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "with french cuisine",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "french",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can you book a table in rome in a moderate price range with british food for four people",
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "value": "rome",
+        "entity": "location"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "value": "mid",
+        "entity": "price"
+      },
+      {
+        "start": 60,
+        "end": 67,
+        "value": "british",
+        "entity": "cuisine"
+      },
+      {
+        "start": 77,
+        "end": 81,
+        "value": "4",
+        "entity": "people"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 34,
+        "end": 42,
+        "confidence_entity": 0.9990467429161072,
+        "value": "mid",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 60,
+        "end": 67,
+        "confidence_entity": 0.9992645382881165,
+        "value": "british",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "people",
+        "start": 77,
+        "end": 81,
+        "confidence_entity": 0.9883041381835938,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "im looking for a restaurant that serves french food",
+    "entities": [
+      {
+        "start": 40,
+        "end": 46,
+        "value": "french",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "actually i would prefer for eight people",
+    "entities": [
+      {
+        "start": 28,
+        "end": 33,
+        "value": "8",
+        "entity": "people"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "danish food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "danish",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "restaurant west part of town danish food",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "west",
+        "entity": "location"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "danish",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.9981347322463989,
+        "value": "west",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "im looking for an expensive restaurant serving french food",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "expensive",
+        "entity": "price"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "value": "french",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9759263396263123,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how about french",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "french",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "restaurant in the east part of town serving basque food",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "east",
+        "entity": "location"
+      },
+      {
+        "start": 44,
+        "end": 50,
+        "value": "basque",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.9877606630325317,
+        "value": "east",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

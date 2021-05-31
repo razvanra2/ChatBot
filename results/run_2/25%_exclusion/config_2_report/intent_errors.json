@@ -1,0 +1,18 @@
+[
+  {
+    "text": "ye",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.3733253479003906
+    }
+  },
+  {
+    "text": "right on good bye peace",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.9678141474723816
+    }
+  }
+]

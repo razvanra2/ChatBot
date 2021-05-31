@@ -1,0 +1,370 @@
+[
+  {
+    "text": "yes italian food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9987462759017944,
+        "value": "italian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "id like an expensive thai restaurant",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "expensive",
+        "entity": "price"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "value": "thai",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.9998753070831299,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "system european food",
+    "entities": [
+      {
+        "start": 7,
+        "end": 15,
+        "value": "european",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.6873208284378052,
+        "value": "system",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 7,
+        "end": 15,
+        "confidence_entity": 0.9994142055511475,
+        "value": "european",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "international food in the east part of town",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "international",
+        "entity": "cuisine"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "value": "east",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.9993871450424194,
+        "value": "international",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how about an expensive restaurant that serves european food",
+    "entities": [
+      {
+        "start": 46,
+        "end": 54,
+        "value": "european",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.999859094619751,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 46,
+        "end": 54,
+        "confidence_entity": 0.7026581168174744,
+        "value": "european",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "im looking for an expensive restaurant and it should be served international food",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "expensive",
+        "entity": "price"
+      },
+      {
+        "start": 63,
+        "end": 76,
+        "value": "international",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 63,
+        "end": 76,
+        "confidence_entity": 0.998508632183075,
+        "value": "international",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "restaurant south part of town english food",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "south",
+        "entity": "location"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "value": "english",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 30,
+        "end": 37,
+        "confidence_entity": 0.9992582201957703,
+        "value": "english",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need a moderately priced restaurant that serves bask food",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "moderate",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 9,
+        "end": 19,
+        "confidence_entity": 0.9999213218688965,
+        "value": "moderate",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 50,
+        "end": 54,
+        "confidence_entity": 0.9444323778152466,
+        "value": "bask",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "um in the south part of town and its cheap",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "south",
+        "entity": "location"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "value": "cheap",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "im looking for a restaurant in the west part of town that serves canape food",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "value": "west",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9998358488082886,
+        "value": "west",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 65,
+        "end": 71,
+        "confidence_entity": 0.9989252686500549,
+        "value": "canape",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "moderate restaurant kosher food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "moderate",
+        "entity": "price"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "value": "kosher",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i want a british restaurant in the east part of town",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "british",
+        "entity": "cuisine"
+      },
+      {
+        "start": 35,
+        "end": 39,
+        "value": "east",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9994165897369385,
+        "value": "british",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how about a restaurant in the east part of town that serves indian food",
+    "entities": [
+      {
+        "start": 60,
+        "end": 66,
+        "value": "indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.9977306723594666,
+        "value": "east",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 60,
+        "end": 66,
+        "confidence_entity": 0.9998070597648621,
+        "value": "indian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "im looking for a restaurant in central it should serve japanese food",
+    "entities": [
+      {
+        "start": 55,
+        "end": 63,
+        "value": "japanese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 31,
+        "end": 38,
+        "confidence_entity": 0.5631063580513,
+        "value": "central",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 55,
+        "end": 63,
+        "confidence_entity": 0.9999394416809082,
+        "value": "japanese",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

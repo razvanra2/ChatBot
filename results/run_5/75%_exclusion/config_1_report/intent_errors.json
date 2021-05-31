@@ -1,0 +1,74 @@
+[
+  {
+    "text": "may i have the phone number of the restaurant",
+    "intent": "request_info",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9991016387939453
+    }
+  },
+  {
+    "text": "no american food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9932605624198914
+    }
+  },
+  {
+    "text": "no i want halal food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "yes that serves korean food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9996419548988342
+    }
+  },
+  {
+    "text": "uh yes can i find a restaurant in the east part of town that serves chinese",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999973773956299
+    }
+  },
+  {
+    "text": "uh yes a cheap restaurant",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "uh yes restaurant that serves danish food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "the south",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.41038718819618225
+    }
+  },
+  {
+    "text": "brazilian food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.994156002998352
+    }
+  }
+]

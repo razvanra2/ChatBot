@@ -1,0 +1,26 @@
+[
+  {
+    "text": "yeah a cheap restaurant serving international food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "is there one that serves indian food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7775352597236633
+    }
+  },
+  {
+    "text": "i love indian food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7557085752487183
+    }
+  }
+]

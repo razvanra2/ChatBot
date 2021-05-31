@@ -1,0 +1,465 @@
+[
+  {
+    "text": "thats correct gastropub food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 14,
+        "end": 23,
+        "confidence_entity": 0.9994682669639587,
+        "value": "gastropub",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "restaurant in the west part of town that serves airitran food",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "west",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.9991082549095154,
+        "value": "west",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 48,
+        "end": 56,
+        "confidence_entity": 0.6779447197914124,
+        "value": "airitran",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you book a table in london in a expensive price range with spanish cuisine for two",
+    "entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "london",
+        "entity": "location"
+      },
+      {
+        "start": 36,
+        "end": 45,
+        "value": "hi",
+        "entity": "price"
+      },
+      {
+        "start": 63,
+        "end": 70,
+        "value": "spanish",
+        "entity": "cuisine"
+      },
+      {
+        "start": 83,
+        "end": 86,
+        "value": "2",
+        "entity": "people"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 36,
+        "end": 45,
+        "confidence_entity": 0.9980348944664001,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 63,
+        "end": 70,
+        "confidence_entity": 0.9942741990089417,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "north american food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "north american",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.8185019493103027,
+        "value": "north american",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how about moderately priced thai food",
+    "entities": [
+      {
+        "start": 10,
+        "end": 20,
+        "value": "moderate",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 10,
+        "end": 20,
+        "confidence_entity": 0.9994206428527832,
+        "value": "moderate",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.9984920024871826,
+        "value": "thai",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "actually i would prefer in madrid",
+    "entities": [
+      {
+        "start": 27,
+        "end": 33,
+        "value": "madrid",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.8667985796928406,
+        "value": "madrid",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "uh id like steakhouse food",
+    "entities": [
+      {
+        "start": 11,
+        "end": 21,
+        "value": "steakhouse",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "im looking for an expensive restaurant and it should serve international food",
+    "entities": [
+      {
+        "start": 59,
+        "end": 72,
+        "value": "international",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9990378618240356,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 59,
+        "end": 72,
+        "confidence_entity": 0.9997192025184631,
+        "value": "international",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you book a table in rome in a moderate price range with british food for four people",
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "value": "rome",
+        "entity": "location"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "value": "mid",
+        "entity": "price"
+      },
+      {
+        "start": 60,
+        "end": 67,
+        "value": "british",
+        "entity": "cuisine"
+      },
+      {
+        "start": 77,
+        "end": 81,
+        "value": "4",
+        "entity": "people"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9694550037384033,
+        "value": "rome",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "price",
+        "start": 34,
+        "end": 42,
+        "confidence_entity": 0.9981693029403687,
+        "value": "mid",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 60,
+        "end": 67,
+        "confidence_entity": 0.9998038411140442,
+        "value": "british",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "north north part of town",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "north",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9063481092453003,
+        "value": "north",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 6,
+        "end": 11,
+        "confidence_entity": 0.9154098629951477,
+        "value": "north",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "im looking for an expensive restaurant that serves signaporean food",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "expensive",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9991275668144226,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 51,
+        "end": 62,
+        "confidence_entity": 0.998554527759552,
+        "value": "signaporean",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "id like an expensive restaurant that serves mediteranean food",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "expensive",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.9987760186195374,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 44,
+        "end": 56,
+        "confidence_entity": 0.9996139407157898,
+        "value": "mediteranean",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i'd like to book a table in a cheap price range for six people with spanish cuisine in madrid",
+    "entities": [
+      {
+        "start": 30,
+        "end": 35,
+        "value": "lo",
+        "entity": "price"
+      },
+      {
+        "start": 52,
+        "end": 55,
+        "value": "6",
+        "entity": "people"
+      },
+      {
+        "start": 68,
+        "end": 75,
+        "value": "spanish",
+        "entity": "cuisine"
+      },
+      {
+        "start": 87,
+        "end": 93,
+        "value": "madrid",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 30,
+        "end": 35,
+        "confidence_entity": 0.9808089733123779,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "people",
+        "start": 52,
+        "end": 55,
+        "confidence_entity": 0.9928971529006958,
+        "value": "6",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 68,
+        "end": 75,
+        "confidence_entity": 0.997883141040802,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 87,
+        "end": 93,
+        "confidence_entity": 0.7270704507827759,
+        "value": "madrid",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how bout one that serves portuguese food and is cheap",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "value": "portuguese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 25,
+        "end": 35,
+        "confidence_entity": 0.999897837638855,
+        "value": "portuguese",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "price",
+        "start": 48,
+        "end": 53,
+        "confidence_entity": 0.9937537312507629,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

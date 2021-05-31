@@ -1,0 +1,476 @@
+[
+  {
+    "text": "no american food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 3,
+        "end": 11,
+        "confidence_entity": 0.6911447048187256,
+        "value": "american",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no spanish",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.7519221305847168,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no i want halal food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.8048394918441772,
+        "value": "halal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i'd like to book a table for two in madrid with spanish cuisine in a moderate price range",
+    "entities": [
+      {
+        "start": 29,
+        "end": 32,
+        "value": "2",
+        "entity": "people"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "value": "madrid",
+        "entity": "location"
+      },
+      {
+        "start": 48,
+        "end": 55,
+        "value": "spanish",
+        "entity": "cuisine"
+      },
+      {
+        "start": 69,
+        "end": 77,
+        "value": "mid",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 36,
+        "end": 42,
+        "confidence_entity": 0.9943472743034363,
+        "value": "madrid",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 48,
+        "end": 55,
+        "confidence_entity": 0.9998229146003723,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "price",
+        "start": 69,
+        "end": 77,
+        "confidence_entity": 0.9992853999137878,
+        "value": "mid",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "im looking for an expensive restaurant that serves signaporean food",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "expensive",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9954432249069214,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 51,
+        "end": 62,
+        "confidence_entity": 0.9971848130226135,
+        "value": "signaporean",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what about a chinese restaurant in the north of town",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "chinese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.9984813332557678,
+        "value": "chinese",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 39,
+        "end": 44,
+        "confidence_entity": 0.968988835811615,
+        "value": "north",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "north north part of town",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "north",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.8660162091255188,
+        "value": "north",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 6,
+        "end": 11,
+        "confidence_entity": 0.983288586139679,
+        "value": "north",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how about an indian restaurant in the north part of town",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.9993588328361511,
+        "value": "indian",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 38,
+        "end": 43,
+        "confidence_entity": 0.9593315720558167,
+        "value": "north",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want to find an expensive restaurant that serves swedish food",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "expensive",
+        "entity": "price"
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "value": "swedish",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9963803887367249,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "im looking for an expensive restaurant and it should serve international food",
+    "entities": [
+      {
+        "start": 59,
+        "end": 72,
+        "value": "international",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9964661598205566,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 59,
+        "end": 72,
+        "confidence_entity": 0.9996143579483032,
+        "value": "international",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "uh how about north american",
+    "entities": [
+      {
+        "start": 13,
+        "end": 27,
+        "value": "north american",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 13,
+        "end": 27,
+        "confidence_entity": 0.7702084183692932,
+        "value": "north american",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ah centre",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "value": "centre",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "moderate restaurant kosher food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "moderate",
+        "entity": "price"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "value": "kosher",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9992825388908386,
+        "value": "mid",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find me a cheap vietnamese restaurant",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "vietnamese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9990026354789734,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 16,
+        "end": 26,
+        "confidence_entity": 0.9870219826698303,
+        "value": "vietnamese",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you make a restaurant reservation in a cheap price range in london with spanish food for eight people",
+    "entities": [
+      {
+        "start": 43,
+        "end": 48,
+        "value": "lo",
+        "entity": "price"
+      },
+      {
+        "start": 64,
+        "end": 70,
+        "value": "london",
+        "entity": "location"
+      },
+      {
+        "start": 76,
+        "end": 83,
+        "value": "spanish",
+        "entity": "cuisine"
+      },
+      {
+        "start": 93,
+        "end": 98,
+        "value": "8",
+        "entity": "people"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 43,
+        "end": 48,
+        "confidence_entity": 0.9979346990585327,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 64,
+        "end": 70,
+        "confidence_entity": 0.5237115621566772,
+        "value": "london",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 76,
+        "end": 83,
+        "confidence_entity": 0.9998660087585449,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "people",
+        "start": 93,
+        "end": 98,
+        "confidence_entity": 0.997313916683197,
+        "value": "8",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "im looking for a restaurant on the east part of town that serves scandinavia food",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "value": "east",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9990034699440002,
+        "value": "east",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 65,
+        "end": 76,
+        "confidence_entity": 0.9957634210586548,
+        "value": "scandinavia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

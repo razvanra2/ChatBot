@@ -1,0 +1,186 @@
+[
+  {
+    "text": "yeah a cheap restaurant serving international food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 32,
+        "end": 45,
+        "confidence_entity": 0.6211822032928467,
+        "value": "international",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "is there one that serves indian food",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can you book a table in rome in a moderate price range with british food for four people",
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "value": "rome",
+        "entity": "location"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "value": "mid",
+        "entity": "price"
+      },
+      {
+        "start": 60,
+        "end": 67,
+        "value": "british",
+        "entity": "cuisine"
+      },
+      {
+        "start": 77,
+        "end": 81,
+        "value": "4",
+        "entity": "people"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9364514946937561,
+        "value": "rome",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "price",
+        "start": 34,
+        "end": 42,
+        "confidence_entity": 0.9992707371711731,
+        "value": "mid",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 60,
+        "end": 67,
+        "confidence_entity": 0.9997407793998718,
+        "value": "british",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "people",
+        "start": 77,
+        "end": 81,
+        "confidence_entity": 0.9958775043487549,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cheap restaurant serving unintelligible food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "cheap",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9992176294326782,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 25,
+        "end": 39,
+        "confidence_entity": 0.8383802175521851,
+        "value": "unintelligible",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "um in the south part of town and its cheap",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "south",
+        "entity": "location"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "value": "cheap",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "lets see im looking for a restaurant in the north part of town that serves vietnamese food",
+    "entities": [
+      {
+        "start": 44,
+        "end": 49,
+        "value": "north",
+        "entity": "location"
+      },
+      {
+        "start": 75,
+        "end": 85,
+        "value": "vietnamese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 75,
+        "end": 85,
+        "confidence_entity": 0.9999483823776245,
+        "value": "vietnamese",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dont care expensive",
+    "entities": [
+      {
+        "start": 10,
+        "end": 19,
+        "value": "expensive",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

@@ -1,0 +1,401 @@
+[
+  {
+    "text": "no hungarian food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 3,
+        "end": 12,
+        "confidence_entity": 0.5767161250114441,
+        "value": "hungarian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "uh yes im looking for malaysian food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 22,
+        "end": 31,
+        "confidence_entity": 0.49820616841316223,
+        "value": "malaysian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "creative food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "creative",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "im looking for thai",
+    "entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "value": "thai",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "im looking for a thai restaurant",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "thai",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "id like an expensive thai restaurant",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "expensive",
+        "entity": "price"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "value": "thai",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.9992235898971558,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "thai food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "thai",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how about an expensive restaurant that serves european food",
+    "entities": [
+      {
+        "start": 46,
+        "end": 54,
+        "value": "european",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9991846680641174,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 46,
+        "end": 54,
+        "confidence_entity": 0.67277991771698,
+        "value": "european",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "im looking for a restaurant in the east part of the town with indian asian food",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "value": "east",
+        "entity": "location"
+      },
+      {
+        "start": 62,
+        "end": 68,
+        "value": "indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9967944025993347,
+        "value": "east",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 62,
+        "end": 68,
+        "confidence_entity": 0.9997479319572449,
+        "value": "indian",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 69,
+        "end": 74,
+        "confidence_entity": 0.9834054708480835,
+        "value": "asian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "expensive european",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "expensive",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 0,
+        "end": 18,
+        "confidence_entity": 0.8853558897972107,
+        "value": "expensive european",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "um in the south part of town and its cheap",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "south",
+        "entity": "location"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "value": "cheap",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.8624999523162842,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "im looking for a restaurant in the east part that serves creative food",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "value": "east",
+        "entity": "location"
+      },
+      {
+        "start": 57,
+        "end": 65,
+        "value": "creative",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9967572093009949,
+        "value": "east",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "im looking for a restaurant in the west part of town that serves canape food",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "value": "west",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9982060194015503,
+        "value": "west",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 65,
+        "end": 71,
+        "confidence_entity": 0.996859073638916,
+        "value": "canape",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "north american food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "north american",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.6420234441757202,
+        "value": "north american",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "im looking for a cheap pan asian food",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "value": "cheap",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.9948828220367432,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.983371376991272,
+        "value": "asian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how about a restaurant in the east part of town that serves indian food",
+    "entities": [
+      {
+        "start": 60,
+        "end": 66,
+        "value": "indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.9926700592041016,
+        "value": "east",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 60,
+        "end": 66,
+        "confidence_entity": 0.9997844099998474,
+        "value": "indian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "im looking for a restaurant in central it should serve japanese food",
+    "entities": [
+      {
+        "start": 55,
+        "end": 63,
+        "value": "japanese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 31,
+        "end": 38,
+        "confidence_entity": 0.6926854252815247,
+        "value": "central",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 55,
+        "end": 63,
+        "confidence_entity": 0.9997236132621765,
+        "value": "japanese",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

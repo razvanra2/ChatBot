@@ -1,0 +1,106 @@
+[
+  {
+    "text": "hi there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9988178610801697
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7680474519729614
+    }
+  },
+  {
+    "text": "do you have its address",
+    "intent": "request_info",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7352885603904724
+    }
+  },
+  {
+    "text": "do you have their address",
+    "intent": "request_info",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.8230373859405518
+    }
+  },
+  {
+    "text": "no hungarian food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.98187655210495
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5011184215545654
+    }
+  },
+  {
+    "text": "yes spanish restaurant",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7238985896110535
+    }
+  },
+  {
+    "text": "yea thank you good bye",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.9988468885421753
+    }
+  },
+  {
+    "text": "uh yes im looking for a cheap restaurant in the west part of town",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999980926513672
+    }
+  },
+  {
+    "text": "yes that sells korean food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7287483215332031
+    }
+  },
+  {
+    "text": "uh yes i need the north part of town",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9620924592018127
+    }
+  },
+  {
+    "text": "uh yes a cheap restaurant",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9456936717033386
+    }
+  },
+  {
+    "text": "hello chinese type of food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6149762272834778
+    }
+  }
+]

@@ -1,0 +1,813 @@
+[
+  {
+    "text": "do you have its address",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "address",
+        "entity": "info"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "do you have their address",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "address",
+        "entity": "info"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "no spanish",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.999639630317688,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no thai",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 3,
+        "end": 7,
+        "confidence_entity": 0.9983000159263611,
+        "value": "thai",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no hungarian food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 3,
+        "end": 12,
+        "confidence_entity": 0.9987384676933289,
+        "value": "hungarian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no north",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 3,
+        "end": 8,
+        "confidence_entity": 0.9503253102302551,
+        "value": "north",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes spanish restaurant",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9996515512466431,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "uh yes im looking for a cheap restaurant in the west part of town",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.998490571975708,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 48,
+        "end": 52,
+        "confidence_entity": 0.9989437460899353,
+        "value": "west",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes that sells korean food",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9995346069335938,
+        "value": "korean",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "uh yes i need the north part of town",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.9705915451049805,
+        "value": "north",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "uh yes a cheap restaurant",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9988061189651489,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how about modern european",
+    "entities": [
+      {
+        "start": 10,
+        "end": 25,
+        "value": "modern european",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.8835603594779968,
+        "value": "modern",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9706595540046692,
+        "value": "european",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "id like moderately priced moroccan food",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "moderate",
+        "entity": "price"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "value": "moroccan",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 8,
+        "end": 18,
+        "confidence_entity": 0.9875352382659912,
+        "value": "moderate",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how about gastropub type of food",
+    "entities": [
+      {
+        "start": 10,
+        "end": 19,
+        "value": "gastropub",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "id like an expensive restaurant that serves mediteranean food",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "expensive",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.9585884809494019,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 44,
+        "end": 56,
+        "confidence_entity": 0.998711347579956,
+        "value": "mediteranean",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "instead could it be with indian cuisine",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9738094806671143,
+        "value": "indian",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 32,
+        "end": 39,
+        "confidence_entity": 0.9804058074951172,
+        "value": "cuisine",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cheap restaurant that serves german food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "cheap",
+        "entity": "price"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "german",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9985151886940002,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how about an indian restaurant in the north part of town",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.9703110456466675,
+        "value": "indian",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 38,
+        "end": 43,
+        "confidence_entity": 0.9750001430511475,
+        "value": "north",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "im looking for a restaurant on the east part of town that serves scandinavia food",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "value": "east",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9319449663162231,
+        "value": "east",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 65,
+        "end": 76,
+        "confidence_entity": 0.9992399215698242,
+        "value": "scandinavia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how bout chinese food",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "chinese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how about asian oriental food",
+    "entities": [
+      {
+        "start": 10,
+        "end": 24,
+        "value": "asian oriental",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "im looking for a cheap restaurant serving modern european type of food",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "value": "cheap",
+        "entity": "price"
+      },
+      {
+        "start": 42,
+        "end": 57,
+        "value": "modern european",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.9987693428993225,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "price",
+        "start": 42,
+        "end": 48,
+        "confidence_entity": 0.6336836814880371,
+        "value": "modern",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 49,
+        "end": 57,
+        "confidence_entity": 0.8297131061553955,
+        "value": "european",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "christmas food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "christmas",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "that serves corsica",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "corsica",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how about asian oriental",
+    "entities": [
+      {
+        "start": 10,
+        "end": 24,
+        "value": "asian oriental",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "im looking for a restaurant in the west part of town that serves moroccan food",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "value": "west",
+        "entity": "location"
+      },
+      {
+        "start": 65,
+        "end": 73,
+        "value": "moroccan",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9990711212158203,
+        "value": "west",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "im looking for a restaurant in any area that serves bistro food",
+    "entities": [
+      {
+        "start": 52,
+        "end": 58,
+        "value": "bistro",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how about an expensive restaurant that serves european food",
+    "entities": [
+      {
+        "start": 46,
+        "end": 54,
+        "value": "european",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9621482491493225,
+        "value": "hi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 46,
+        "end": 54,
+        "confidence_entity": 0.8327438235282898,
+        "value": "european",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "id like a restaurant in the north part of town that serves cross over food",
+    "entities": [
+      {
+        "start": 28,
+        "end": 33,
+        "value": "north",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 28,
+        "end": 33,
+        "confidence_entity": 0.9739670753479004,
+        "value": "north",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 59,
+        "end": 64,
+        "confidence_entity": 0.7520020604133606,
+        "value": "cross",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "im looking for a restaurant that serves gastropub food any price range",
+    "entities": [
+      {
+        "start": 40,
+        "end": 49,
+        "value": "gastropub",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "im looking for a restaurant in the west part of town that serves canape food",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "value": "west",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9990764856338501,
+        "value": "west",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 65,
+        "end": 71,
+        "confidence_entity": 0.9940903782844543,
+        "value": "canape",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i would like modern european food",
+    "entities": [
+      {
+        "start": 13,
+        "end": 28,
+        "value": "modern european",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.7779874205589294,
+        "value": "modern",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.8405077457427979,
+        "value": "european",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "gastropub food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "gastropub",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hello chinese type of food",
+    "entities": [
+      {
+        "start": 6,
+        "end": 13,
+        "value": "chinese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i'd like to book a table for two in madrid with spanish cuisine in a moderate price range",
+    "entities": [
+      {
+        "start": 29,
+        "end": 32,
+        "value": "2",
+        "entity": "people"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "value": "madrid",
+        "entity": "location"
+      },
+      {
+        "start": 48,
+        "end": 55,
+        "value": "spanish",
+        "entity": "cuisine"
+      },
+      {
+        "start": 69,
+        "end": 77,
+        "value": "mid",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 36,
+        "end": 42,
+        "confidence_entity": 0.9973487854003906,
+        "value": "madrid",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 48,
+        "end": 55,
+        "confidence_entity": 0.9996811151504517,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 56,
+        "end": 63,
+        "confidence_entity": 0.9085167050361633,
+        "value": "cuisine",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "price",
+        "start": 69,
+        "end": 77,
+        "confidence_entity": 0.9941145777702332,
+        "value": "mid",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "can you make a restaurant reservation in a cheap price range in london with spanish food for eight people",
+    "entities": [
+      {
+        "start": 43,
+        "end": 48,
+        "value": "lo",
+        "entity": "price"
+      },
+      {
+        "start": 64,
+        "end": 70,
+        "value": "london",
+        "entity": "location"
+      },
+      {
+        "start": 76,
+        "end": 83,
+        "value": "spanish",
+        "entity": "cuisine"
+      },
+      {
+        "start": 93,
+        "end": 98,
+        "value": "8",
+        "entity": "people"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 43,
+        "end": 48,
+        "confidence_entity": 0.9983460903167725,
+        "value": "lo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "cuisine",
+        "start": 76,
+        "end": 83,
+        "confidence_entity": 0.9996670484542847,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "people",
+        "start": 93,
+        "end": 98,
+        "confidence_entity": 0.9851458072662354,
+        "value": "8",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

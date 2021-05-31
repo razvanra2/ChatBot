@@ -1,0 +1,57 @@
+{
+  "cuisine": {
+    "precision": 0.8666666666666667,
+    "recall": 0.896551724137931,
+    "f1-score": 0.8813559322033899,
+    "support": 87,
+    "confused_with": {
+      "location": 2
+    }
+  },
+  "location": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 45,
+    "confused_with": {}
+  },
+  "info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "price": {
+    "precision": 0.9555555555555556,
+    "recall": 1.0,
+    "f1-score": 0.9772727272727273,
+    "support": 43,
+    "confused_with": {}
+  },
+  "people": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9109947643979057,
+    "recall": 0.9508196721311475,
+    "f1-score": 0.9304812834224598,
+    "support": 183
+  },
+  "macro avg": {
+    "precision": 0.9519444444444446,
+    "recall": 0.9793103448275862,
+    "f1-score": 0.9652741189919978,
+    "support": 183
+  },
+  "weighted avg": {
+    "precision": 0.9107999392835457,
+    "recall": 0.9508196721311475,
+    "f1-score": 0.9303228441048983,
+    "support": 183
+  }
+}

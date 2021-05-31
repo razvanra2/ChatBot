@@ -1,0 +1,10 @@
+[
+  {
+    "text": "right on good bye peace",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7602640986442566
+    }
+  }
+]

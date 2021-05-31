@@ -1,0 +1,18 @@
+[
+  {
+    "text": "moderate restaurant kosher food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.999444305896759
+    }
+  },
+  {
+    "text": "brazilian food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5177298784255981
+    }
+  }
+]

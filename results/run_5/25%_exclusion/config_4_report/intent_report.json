@@ -1,0 +1,59 @@
+{
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "inform": {
+    "precision": 1.0,
+    "recall": 0.984,
+    "f1-score": 0.9919354838709677,
+    "support": 125,
+    "confused_with": {
+      "affirm": 2
+    }
+  },
+  "affirm": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 8,
+    "confused_with": {}
+  },
+  "request_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "thankyou": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "accuracy": 0.9864864864864865,
+  "macro avg": {
+    "precision": 0.9666666666666667,
+    "recall": 0.9973333333333333,
+    "f1-score": 0.9801373954599762,
+    "support": 148
+  },
+  "weighted avg": {
+    "precision": 0.9891891891891892,
+    "recall": 0.9864864864864865,
+    "f1-score": 0.9871827472633925,
+    "support": 148
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "text": "i love indian food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5274158120155334
+    }
+  },
+  {
+    "text": "um in the south part of town and its cheap",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6448212265968323
+    }
+  },
+  {
+    "text": "yea i would like korean food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9807658791542053
+    }
+  }
+]

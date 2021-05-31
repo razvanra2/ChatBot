@@ -1,0 +1,18 @@
+[
+  {
+    "text": "right on good bye peace",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.9625656008720398
+    }
+  },
+  {
+    "text": "moderate restaurant kosher food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9596357345581055
+    }
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "text": "goodafternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8464431762695312
+    }
+  },
+  {
+    "text": "sorry about my mistakes thank you good bye",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8306806087493896
+    }
+  },
+  {
+    "text": "no im looking for one that serves vietnamese food",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9478702545166016
+    }
+  },
+  {
+    "text": "no im looking for pan asian",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7661612629890442
+    }
+  },
+  {
+    "text": "yes can i have can i get swedish food in any area",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9355952739715576
+    }
+  },
+  {
+    "text": "yeah a cheap restaurant serving international food",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "danish food",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.90556401014328
+    }
+  }
+]
